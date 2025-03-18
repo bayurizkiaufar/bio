@@ -1,4 +1,43 @@
 body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.section-title {
+    margin-top: 40px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.card-body {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+body {
     background-color: #f8f9fa;
 }
 
@@ -13,3 +52,31 @@ h2 {
 .card {
     margin-bottom: 20px;
 }
+
+.butoon {
+    background-color: #f8f9fa;
+}
+
+.figure-caption {
+    width: max-content;
+    height: max-content;
+    font-size: larger;
+}
+
+ .video-container {
+      position: relative;
+      width: 100%; /* Makes it responsive */
+      padding-top: 177.77%; /* 9:16 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+    }
+
+    /* Iframe takes full width and height of the container */
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
